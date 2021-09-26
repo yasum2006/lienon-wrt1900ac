@@ -14,5 +14,5 @@
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
 sed -i 's/192.168.1.1/192.168.6.192/g' package/base-files/files/bin/config_generate
 sed -i 's/OpenWrt/WRT1900 V2/g' package/base-files/files/bin/config_generate
-git clone https://github.com/frainzy1477/luci-app-clash.git package/luci-app-clash
-git clone -b master https://github.com/vernesong/OpenClash.git package/luci-app-openclash
+#git clone https://github.com/frainzy1477/luci-app-clash.git package/luci-app-clash
+#git clone -b master https://github.com/vernesong/OpenClash.git package/luci-app-openclash
